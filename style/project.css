@@ -1,0 +1,70 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --green: #00ff66;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background: #0a0a0a;
+    border-radius: 2rem;
+    padding: 1.6rem;
+    border: 1px solid #1f3a2a;
+    transition: 0.25s;
+    height: 100%;
+}
+
+.project-card:hover {
+    border-color: var(--green);
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: var(--green);
+    margin-bottom: 0.8rem;
+}
+
+.project-card p {
+    color: #ccc;
+    margin-bottom: 2rem;
+}
+
+.project-tag {
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    border-top: 1px solid var(--green);
+    padding-top: 0.5rem;
+    color: var(--green);
+}
+
+.app-btn {
+    margin-top: auto;
+    width: 9rem;
+    border-radius: 2rem;
+    background: #13a300;
+    padding: 1rem;
+    font-weight: 900;
+    border: none;
+}
+
+.app-btn a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.app-btn:hover {
+    background: #1cf200;
+}
+
+/* 
+https://khan-omary.github.io/meli_almas_constraction_company/
+*/

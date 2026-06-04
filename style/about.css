@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --green: #00ff66;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Segoe UI', 'Poppins', system-ui, -apple-system, sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 3rem 1.5rem;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+#about_me {
+    margin-top: 1.5rem;
+    border: 0.2px solid rgba(0, 255, 102, 0.25);
+    border-radius: 2rem;
+    box-shadow: rgba(0, 255, 102, 0.25) 5px 10px 11px;
+}
+
+#about_me:hover {
+    border-color: var(--green);
+    transform: translateY(-5px);
+}
+
+#about_me p {
+    margin-top: 1rem;
+    font-size: 1.15rem;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1.8rem;
+    border-radius: 28px;
+    border: 1px solid rgba(0, 255, 102, 0.25);
+    line-height: 1.7;
+}
+
+
