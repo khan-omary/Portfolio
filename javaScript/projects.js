@@ -41,27 +41,31 @@ const projects = [
     }
 ];
 
-projects.forEach(project => {
+function createProjct() {
+    projects.forEach(project => {
 
-    const projectCard = document.createElement("div");
-    projectCard.classList.add("project-card");
+        const projectCard = document.createElement("div");
+        projectCard.classList.add("project-card");
 
-    const title = document.createElement("h3");
-    title.textContent = project.title;
+        const title = document.createElement("h3");
+        title.textContent = project.title;
 
-    const description = document.createElement("p");
-    description.textContent = project.description;
+        const description = document.createElement("p");
+        description.textContent = project.description;
 
-    const button = document.createElement("button");
-    button.classList.add("app-btn");
+        const button = document.createElement("button");
+        button.classList.add("app-btn");
 
-    const link = document.createElement("a");
-    link.href = project.link;
-    link.textContent = project.buttonText;
+        const link = document.createElement("a");
+        link.href = project.link;
+        link.textContent = project.buttonText;
 
-    button.appendChild(link);
+        button.appendChild(link);
 
-    projectCard.append(title, description, button);
+        projectCard.append(title, description, button);
 
-    projectsGrid.appendChild(projectCard);
-});
+        projectsGrid.appendChild(projectCard);
+    });
+}
+
+createProjct();
