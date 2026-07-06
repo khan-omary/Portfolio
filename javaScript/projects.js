@@ -32,6 +32,12 @@ const projects = [
         description: "دا ګیم چی دری برخی لری (ساده، متوسط، سخت) کږلی ش پکی پښتو ټایپنګ زده کړی",
         link: "project.html#pashto_typing_game",
         buttonText: "ګیم لیدل"
+    },
+    {
+        title: "personal finance management",
+        description: "د پروژو په صفحه کی یی  مکمل معلومات وګوری ",
+        link: "project.html#personal_finance_management",
+        buttonText: "پروژه وګوری"
     }
 ];
 
